@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    padding-top: 800px;
+    margin:0;
+    background:linear-gradient(rgb(249, 255, 168),rgb(243, 209, 215));
+}
+
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    
+    display: table;
+    height: 100%;
+    width: 100%;
+    
+}
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.line{
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    margin: 8px auto;
+}
+#bio{
+    font-family: 'Bebas Neue', cursive;
+    padding: 50px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu{
+    position:fixed;
+    background-color: rgb(245, 202, 239);
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10px;
+    list-style:none;
+    color: black;
+}
+.link{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.link:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+text-decoration: none;
+
+}
+#writings a{
+text-decoration: underline !important;
+}
+#contact{
+    background-color: rgb(247, 216, 241);
+
+}
+
+#contact iframe{
+    width: 100%;
+}
+
+.contact_1 h3{
+    display: inline ;
+
+}
